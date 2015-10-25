@@ -1,4 +1,8 @@
 <resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
     <!-- Main VLC Interface -->
     <string name="app_name" translatable="false">VLC</string>
@@ -404,12 +408,18 @@
         <item>@string/screen_orientation_reverse_portrait</item>
     </string-array>
     <string-array name="screen_orientation_values" translatable="false">
-        <item>4</item> <!-- 4 ActivityInfo.SCREEN_ORIENTATION_SENSOR -->
-        <item>100</item> <!-- 100 Arbitrary value for locked start -->
-        <item>0</item> <!-- 0 ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE -->
-        <item>1</item> <!-- 1 ActivityInfo.SCREEN_ORIENTATION_PORTRAIT -->
-        <item>8</item> <!-- 8 ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE -->
-        <item>9</item> <!-- 9 ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT -->
+        <item>4</item>
+        <!-- 4 ActivityInfo.SCREEN_ORIENTATION_SENSOR -->
+        <item>100</item>
+        <!-- 100 Arbitrary value for locked start -->
+        <item>0</item>
+        <!-- 0 ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE -->
+        <item>1</item>
+        <!-- 1 ActivityInfo.SCREEN_ORIENTATION_PORTRAIT -->
+        <item>8</item>
+        <!-- 8 ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE -->
+        <item>9</item>
+        <!-- 9 ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT -->
     </string-array>
 
     <string-array name="audio_title_alignment_list">
@@ -535,17 +545,20 @@
         <item>YUV</item>
     </string-array>
     <string-array name="vouts_values" translatable="false">
-        <item >0</item>
-        <item >1</item>
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="vouts_values_froyo" translatable="false">
-        <item >0</item>
+        <item>0</item>
     </string-array>
     <string-array name="vouts">
-        <item >@string/vout_android_surface</item>
-        <item >@string/vout_opengles2</item>
+        <item>@string/vout_android_surface</item>
+        <item>@string/vout_opengles2</item>
     </string-array>
     <string-array name="vouts_froyo">
-        <item >@string/vout_android_surface</item>
+        <item>@string/vout_android_surface</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

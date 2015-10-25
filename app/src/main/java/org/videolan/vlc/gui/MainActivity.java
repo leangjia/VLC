@@ -748,7 +748,8 @@ public class MainActivity extends AudioPlayerContainerActivity implements OnItem
         if(current == null || (entry != null && current.getTag().equals(entry.id))) { /* Already selected */
             if (mFocusedPrior != 0)
                 requestFocusOnSearch();
-            mDrawerLayout.closeDrawer(mListView);
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+//            mDrawerLayout.closeDrawer(mRootContainer);
             return;
         }
 
@@ -778,7 +779,8 @@ public class MainActivity extends AudioPlayerContainerActivity implements OnItem
             showSecondaryFragment(SecondaryActivity.ABOUT);
         else if (entry.attributeID == R.attr.ic_menu_preferences)
             startActivityForResult(new Intent(this, PreferencesActivity.class), ACTIVITY_RESULT_PREFERENCES);
-        mDrawerLayout.closeDrawer(mListView);
+//        mDrawerLayout.closeDrawer(mRootContainer);
+        mDrawerLayout.closeDrawer(GravityCompat.START);
     }
 
     private void requestFocusOnSearch() {

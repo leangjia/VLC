@@ -63,10 +63,10 @@ public class SidebarAdapter extends BaseAdapter {
         public static final String ID_PREFERENCES = "preferences";
         public static final String ID_ABOUT = "about";
 
-        String id;
-        String name;
-        int attributeID;
-        int type;
+        public String id;
+        public String name;
+        public int attributeID;
+        public int type;
 
         public SidebarEntry(String id, int name, int attributeID, int type) {
             this.id = id;

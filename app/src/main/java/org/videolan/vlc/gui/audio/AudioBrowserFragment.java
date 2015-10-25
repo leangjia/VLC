@@ -49,13 +49,14 @@ import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.TextView;
 
+import com.xuie.vlc.R;
+
 import org.videolan.libvlc.Media;
 import org.videolan.libvlc.util.AndroidUtil;
 import org.videolan.libvlc.util.MediaBrowser;
 import org.videolan.vlc.MediaDatabase;
 import org.videolan.vlc.MediaLibrary;
 import org.videolan.vlc.MediaWrapper;
-import com.xuie.vlc.R;
 import org.videolan.vlc.VLCApplication;
 import org.videolan.vlc.gui.MainActivity;
 import org.videolan.vlc.gui.SecondaryActivity;
